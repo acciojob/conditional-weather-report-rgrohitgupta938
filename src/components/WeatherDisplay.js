@@ -5,13 +5,13 @@ const WeatherDisplay = ({ weatherData }) => {
 
   return (
     <div>
-      <h2>
+      <p>
         Current Temperature:{" "}
         <span style={{ color: temperature > 20 ? "red" : "blue" }}>
           {temperature}°C
         </span>
-      </h2>
-      <h3>Conditions: {conditions}</h3>
+      </p>
+      <p>Conditions: {conditions}</p>
     </div>
   );
 };
